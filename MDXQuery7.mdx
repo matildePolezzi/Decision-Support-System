@@ -1,0 +1,42 @@
+
+WITH 
+-- Calcolo del danno totale per ciascuna località
+MEMBER [Measures].[TotalDamageByLocation] AS 
+    SUM(
+        [Dimension Geography].[Hierarchy].[LOCATION].MEMBERS,
+        IIF(
+            ISEMPTY([Measures].[DAMAGE]), 
+            0, 
+            [Measures].[DAMAGE]
+        )
+    )
+
+-- Calcolo del danno totale associato al maltempo come causa primaria
+MEMBER [Measures].[WeatherDamage] AS 
+    SUM(
+        {[Dimension Cause].[Hierarchy].[PRIM CONTRIBUTORY CAUSE].&[WEATHER]},
+        IIF(
+            ISEMPTY([Measures].[DAMAGE]), 
+            0, 
+            [Measures].[DAMAGE]
+        )
+    )
+
+-- Percentuale del danno legato al maltempo rispetto al danno totale
+MEMBER [Measures].[WeatherDamagePercentage] AS 
+    IIF(
+        [Measures].[TotalDamageByLocation] = 0, 
+        NULL, 
+        ([Measures].[WeatherDamage] / [Measures].[TotalDamageByLocation]) * 100
+    ), FORMAT_STRING = "Percent"
+
+SELECT 
+    {
+        [Measures].[WeatherDamage], 
+        [Measures].[WeatherDamagePercentage]
+    } ON COLUMNS,
+    NONEMPTY(
+        [Dimension Geography].[Hierarchy].[LOCATION].MEMBERS *
+        {[Dimension Cause].[Hierarchy].[PRIM CONTRIBUTORY CAUSE].&[WEATHER]}
+    ) ON ROWS
+FROM [Group ID 21]

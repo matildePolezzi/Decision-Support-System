@@ -1,0 +1,36 @@
+WITH 
+-- Calcolo della media dei veicoli coinvolti per il trimestre dell'anno precedente
+MEMBER [Measures].[AvgVehiclesPrevYear] AS 
+    AVG(
+        ParallelPeriod(
+            [Dimension Date].[Hierarchy].[CRASH YEAR], 1, [Dimension Date].[Hierarchy].CurrentMember
+        ),
+        CoalesceEmpty([Measures].[NUM UNITS], 0)
+    )
+
+-- Percentuale di incremento dei veicoli rispetto alla media dell'anno precedente
+MEMBER [Measures].[PercIncreaseVehicles] AS 
+    IIF(
+        [Measures].[AvgVehiclesPrevYear] = 0, 
+        NULL,  
+        (([Measures].[NUM UNITS] - [Measures].[AvgVehiclesPrevYear]) / [Measures].[AvgVehiclesPrevYear]) * 100
+    ), FORMAT_STRING = "Percent"
+
+SELECT 
+    {
+        [Measures].[NUM UNITS], 
+        [Measures].[AvgVehiclesPrevYear], 
+        [Measures].[PercIncreaseVehicles]
+    } ON COLUMNS,
+    
+    NONEMPTY(
+        FILTER(
+            [Dimension Date].[Hierarchy].[QUARTER].Members *
+            [Dimension Geography].[Hierarchy].[LOCATION].Members,
+            CoalesceEmpty([Measures].[NUM UNITS], 0) > 0 AND
+            CoalesceEmpty([Measures].[AvgVehiclesPrevYear], 0) > 0 AND
+            [Measures].[NUM UNITS] > [Measures].[AvgVehiclesPrevYear]
+        )
+    ) ON ROWS
+
+FROM [Group ID 21]
