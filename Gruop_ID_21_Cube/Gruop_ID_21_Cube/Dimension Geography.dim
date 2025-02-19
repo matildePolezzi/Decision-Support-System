@@ -1,0 +1,254 @@
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="a2a0fd73-ec19-47fa-8239-c832fdc08661" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Dimension Geography</ID>
+  <Name>Dimension Geography</Name>
+  <CreatedTimestamp>0001-01-01T08:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T08:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="3" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-1118" scrolltop="-3030" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="6350" y="8678" backcolor="16119285" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Dimension_Geography" left="20" top="0" logicalid="2" controlid="1" masterid="0" hint1="0" hint2="0" width="4075" height="3995" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000eb0f00009b0f0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="Group_ID_21_Dimension_Geography" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-1118</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-3030</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>20</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T08:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="485203f0-750a-4ee5-95d4-bd41d1ccc3fe">
+    <DataSourceViewID>Group ID 21</DataSourceViewID>
+  </Source>
+  <ErrorConfiguration dwd:design-time-name="8cf7a85a-a958-448c-b6d7-4990a1d69ebd">
+    <KeyNotFound>ReportAndStop</KeyNotFound>
+    <KeyDuplicate>ReportAndStop</KeyDuplicate>
+    <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
+  </ErrorConfiguration>
+  <CurrentStorageMode>Molap</CurrentStorageMode>
+  <Attributes>
+    <Attribute dwd:design-time-name="34fbed93-9c10-4bac-8922-b4c0a003b556">
+      <ID>GEOGRAPHY ID</ID>
+      <Name>GEOGRAPHY ID</Name>
+      <Usage>Key</Usage>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="785552ad-4526-4a5e-b3fd-bfdc339b76d5">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="10a5d178-23cd-4dbc-bd3d-7756e16e2e22">
+            <TableID>Group_ID_21_Dimension_Geography</TableID>
+            <ColumnID>GEOGRAPHY_ID</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="2f526034-107c-4902-b296-9de62eee16ef">
+          <AttributeID>LONGITUDE</AttributeID>
+          <Name>LONGITUDE</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="147d3e3b-7b90-4279-8c4e-fb2ec43caa27">
+          <AttributeID>LOCATION</AttributeID>
+          <Name>LOCATION</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="684866ba-0402-4fb8-8b7b-7f92f4fe6758">
+          <AttributeID>STREET NAME</AttributeID>
+          <Name>STREET NAME</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="f7a7326c-923f-4c54-b7dc-a18dbf8afce8">
+          <AttributeID>STREET DIRECTION</AttributeID>
+          <Name>STREET DIRECTION</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="d0b506b0-afc5-4166-8f38-ae5d2a7813f4">
+          <AttributeID>STREET NO</AttributeID>
+          <Name>STREET NO</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="9d55eb23-3205-47c3-b975-4b47d95ad0ab">
+          <AttributeID>LATITUDE</AttributeID>
+          <Name>LATITUDE</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="db893dff-857a-47d7-8c16-cca6f41e2f27">
+      <ID>LONGITUDE</ID>
+      <Name>LONGITUDE</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="b065e333-6b45-4ecf-8eda-72adea2e5114">
+          <DataType>WChar</DataType>
+          <DataSize>200</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="e2104315-c088-4128-91d6-924cbda8a300">
+            <TableID>Group_ID_21_Dimension_Geography</TableID>
+            <ColumnID>LONGITUDE</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="61a3d311-1127-41f8-ba4d-6db6a1f0a843">
+      <ID>LOCATION</ID>
+      <Name>LOCATION</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="79afafa6-ca5e-42c7-85c6-c02216547f36">
+          <DataType>WChar</DataType>
+          <DataSize>200</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="de88b058-9ab5-4bbd-889a-b9d051e7e72a">
+            <TableID>Group_ID_21_Dimension_Geography</TableID>
+            <ColumnID>LOCATION</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="d4fa4d16-2db1-41b9-a37a-b5b410d2a9e6">
+      <ID>STREET NAME</ID>
+      <Name>STREET NAME</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="f2f5b85f-d3f1-460b-ac02-c694913b192b">
+          <DataType>WChar</DataType>
+          <DataSize>100</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="3bf4f4ea-c030-4491-99e0-ad9065ef76f6">
+            <TableID>Group_ID_21_Dimension_Geography</TableID>
+            <ColumnID>STREET_NAME</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="af7d3ab2-28a7-4f41-8026-a4229fbc8b90">
+      <ID>STREET DIRECTION</ID>
+      <Name>STREET DIRECTION</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="eda4e658-5ac6-43c1-ac7f-5075d55ef0ee">
+          <DataType>WChar</DataType>
+          <DataSize>100</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="8887a9f0-201e-4e0f-b2bd-4bc8b275c599">
+            <TableID>Group_ID_21_Dimension_Geography</TableID>
+            <ColumnID>STREET_DIRECTION</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="bead4c56-f108-4608-b932-38b2cc6e91ac">
+      <ID>STREET NO</ID>
+      <Name>STREET NO</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="9a37a73f-4eac-4e8b-a9fa-6655ec267af5">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="ef8b1460-bc75-4ae8-a7c4-a4b06c54230b">
+            <TableID>Group_ID_21_Dimension_Geography</TableID>
+            <ColumnID>STREET_NO</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="60bc0933-22cd-44de-aa8b-f852898b8bf9">
+      <ID>LATITUDE</ID>
+      <Name>LATITUDE</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="b533d9b6-4255-4a32-a4a4-1ab010663700">
+          <DataType>WChar</DataType>
+          <DataSize>200</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="574a8c10-cd08-4462-8680-fe194cd988d8">
+            <TableID>Group_ID_21_Dimension_Geography</TableID>
+            <ColumnID>LATITUDE</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+  </Attributes>
+  <Hierarchies>
+    <Hierarchy dwd:design-time-name="a2e7d4e1-404c-49dd-9773-eb64f57a474e">
+      <ID>Hierarchy</ID>
+      <Name>Hierarchy</Name>
+      <Levels>
+        <Level dwd:design-time-name="a09ae53c-6118-4011-b169-7f4e6251635f">
+          <ID>STREET DIRECTION</ID>
+          <Name>STREET DIRECTION</Name>
+          <SourceAttributeID>STREET DIRECTION</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="842e80f9-e3a2-4ac5-a7f3-0fa2b2b26f3e">
+          <ID>STREET NAME</ID>
+          <Name>STREET NAME</Name>
+          <SourceAttributeID>STREET NAME</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="96cc3c6e-2153-49bb-bb8f-85d5c1305f81">
+          <ID>STREET NO</ID>
+          <Name>STREET NO</Name>
+          <SourceAttributeID>STREET NO</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="dfa51de6-1fa8-477b-b199-3d26c56368c4">
+          <ID>LOCATION</ID>
+          <Name>LOCATION</Name>
+          <SourceAttributeID>LOCATION</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="85484c5e-c1b2-4453-8e7c-285f9a996a7b">
+          <ID>GEOGRAPHY ID</ID>
+          <Name>GEOGRAPHY ID</Name>
+          <SourceAttributeID>GEOGRAPHY ID</SourceAttributeID>
+        </Level>
+      </Levels>
+    </Hierarchy>
+  </Hierarchies>
+  <ddl300:ProcessingState>Unprocessed</ddl300:ProcessingState>
+</Dimension>

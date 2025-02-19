@@ -1,0 +1,261 @@
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="6230cd14-9400-405e-bd0b-8fd4e5fd0862" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Dimension Crash</ID>
+  <Name>Dimension Crash</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="2" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-602" scrolltop="-1918" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="6350" y="8678" backcolor="16119285" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Dimension_Crash" left="20" top="0" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="5106" height="4842" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000f2130000ea120000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="Group_ID_21_Dimension_Crash" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-602</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-1918</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>20</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="37f572a3-8775-4059-922a-4411cc274fdd">
+    <DataSourceViewID>Group ID 21</DataSourceViewID>
+  </Source>
+  <ErrorConfiguration dwd:design-time-name="26009ef4-5792-4118-bf0f-7e429281df79">
+    <KeyNotFound>ReportAndStop</KeyNotFound>
+    <KeyDuplicate>ReportAndStop</KeyDuplicate>
+    <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
+  </ErrorConfiguration>
+  <CurrentStorageMode>Molap</CurrentStorageMode>
+  <Attributes>
+    <Attribute dwd:design-time-name="cb2703e7-39a2-4507-9539-ea2282cb48db">
+      <ID>RD NO</ID>
+      <Name>RD NO</Name>
+      <Usage>Key</Usage>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="aa89efd0-9b95-484c-b910-f99e11aa61f3">
+          <DataType>WChar</DataType>
+          <DataSize>100</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="f2fa3dec-133a-4187-b7ab-904df6a659eb">
+            <TableID>Group_ID_21_Dimension_Crash</TableID>
+            <ColumnID>RD_NO</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="a74a8445-9b15-4b34-852e-22c6668c9812">
+          <AttributeID>ALIGNMENT</AttributeID>
+          <Name>ALIGNMENT</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="11552a0d-7dd9-456c-8f80-315c499a8ceb">
+          <AttributeID>BEAT OF OCCURRENCE</AttributeID>
+          <Name>BEAT OF OCCURRENCE</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="3e9006b2-4807-4e31-a89b-b3ac32d92f16">
+          <AttributeID>CRASH TYPE</AttributeID>
+          <Name>CRASH TYPE</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="8f244462-1a07-4913-9dd4-9e846cdfcfff">
+          <AttributeID>REPORT TYPE</AttributeID>
+          <Name>REPORT TYPE</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="ed91aec1-9634-49bf-abd6-a2edc11d13a5">
+          <AttributeID>TRAFFIC CONTROL DEVICE</AttributeID>
+          <Name>TRAFFIC CONTROL DEVICE</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="9813aa24-1580-4bef-b62e-485d2bc4fecf">
+          <AttributeID>FIRST CRASH TYPE</AttributeID>
+          <Name>FIRST CRASH TYPE</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="e83d6dda-f630-4612-8769-4f74a87b0d13">
+          <AttributeID>POSTED SPEED LIMIT</AttributeID>
+          <Name>POSTED SPEED LIMIT</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="949e92b6-8355-414b-8cfb-0580e9a7520d">
+          <AttributeID>TRAFFICWAY TYPE</AttributeID>
+          <Name>TRAFFICWAY TYPE</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="ec3aea52-f75a-41ef-8406-5dad52e35586">
+      <ID>ALIGNMENT</ID>
+      <Name>ALIGNMENT</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="3ffd2867-3d5c-4391-9c47-8ae655dd092b">
+          <DataType>WChar</DataType>
+          <DataSize>100</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="2939754b-7038-4602-9f7c-31ca412e5bb8">
+            <TableID>Group_ID_21_Dimension_Crash</TableID>
+            <ColumnID>ALIGNMENT</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="476d71d2-83ce-4762-bf60-7f960512ddf7">
+      <ID>BEAT OF OCCURRENCE</ID>
+      <Name>BEAT OF OCCURRENCE</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="b937dca8-1ae5-4e36-90f3-5caabb8b3344">
+          <DataType>Double</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="b9022051-1c6f-46fd-86ef-189bc6881ea5">
+            <TableID>Group_ID_21_Dimension_Crash</TableID>
+            <ColumnID>BEAT_OF_OCCURRENCE</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="29774a0e-a27f-44c7-a2b7-2d4bc6badea4">
+      <ID>CRASH TYPE</ID>
+      <Name>CRASH TYPE</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="0b02bf51-e7d3-4923-aac6-a1cbd5eb3082">
+          <DataType>WChar</DataType>
+          <DataSize>100</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="ddc7d487-5150-435c-9f03-40e81dd98dd7">
+            <TableID>Group_ID_21_Dimension_Crash</TableID>
+            <ColumnID>CRASH_TYPE</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="5231c876-b5c7-45d5-ad2a-2c87f431b4c5">
+      <ID>REPORT TYPE</ID>
+      <Name>REPORT TYPE</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="e424e59c-b84f-45e5-b735-833c55e7bae1">
+          <DataType>WChar</DataType>
+          <DataSize>100</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="c467e90d-8906-4340-b87d-c05606e36adb">
+            <TableID>Group_ID_21_Dimension_Crash</TableID>
+            <ColumnID>REPORT_TYPE</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="d36416cd-67b7-44b9-9304-beaf0f934ae1">
+      <ID>TRAFFIC CONTROL DEVICE</ID>
+      <Name>TRAFFIC CONTROL DEVICE</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="2c7c6aa5-58dc-4647-b508-f0d974625fb0">
+          <DataType>WChar</DataType>
+          <DataSize>100</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="a70391e7-5f5d-4762-99ef-4dd1ec0c3788">
+            <TableID>Group_ID_21_Dimension_Crash</TableID>
+            <ColumnID>TRAFFIC_CONTROL_DEVICE</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="11e73f34-0b49-4632-a003-3abae8f89191">
+      <ID>FIRST CRASH TYPE</ID>
+      <Name>FIRST CRASH TYPE</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="1e524ffa-60d9-413c-842e-1f318699a3ae">
+          <DataType>WChar</DataType>
+          <DataSize>100</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="508beb0f-442d-46f9-af06-edd6c12f3393">
+            <TableID>Group_ID_21_Dimension_Crash</TableID>
+            <ColumnID>FIRST_CRASH_TYPE</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="72340b39-9eac-47ce-8455-a2510c4f9c55">
+      <ID>POSTED SPEED LIMIT</ID>
+      <Name>POSTED SPEED LIMIT</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="d741d755-6764-48b9-be4d-ef805e6c5fa4">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="4fbba952-4978-4804-909c-c78ac33bcd60">
+            <TableID>Group_ID_21_Dimension_Crash</TableID>
+            <ColumnID>POSTED_SPEED_LIMIT</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="08417cc6-6caa-4c0c-81f6-c429825b6486">
+      <ID>TRAFFICWAY TYPE</ID>
+      <Name>TRAFFICWAY TYPE</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="319d001d-692b-4164-b9f8-827c70fc0ac4">
+          <DataType>WChar</DataType>
+          <DataSize>100</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="b1c32aa7-ca0f-4792-8bde-5d560d4fb5ee">
+            <TableID>Group_ID_21_Dimension_Crash</TableID>
+            <ColumnID>TRAFFICWAY_TYPE</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+  </Attributes>
+  <ddl300:ProcessingState>Unprocessed</ddl300:ProcessingState>
+</Dimension>

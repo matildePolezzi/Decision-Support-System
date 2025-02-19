@@ -1,0 +1,225 @@
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="5177c83f-9397-4950-aae0-96e7b642c152" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Dimension Cause</ID>
+  <Name>Dimension Cause</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="2" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-417" scrolltop="-3241" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="6350" y="10054" backcolor="16119285" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Dimension_Cause" left="20" top="0" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="5477" height="3572" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e000065150000f40d0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="Group_ID_21_Dimension_Cause" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-417</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-3241</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>20</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="86b44f08-5542-40d9-b874-87ef15d531ba">
+    <DataSourceViewID>Group ID 21</DataSourceViewID>
+  </Source>
+  <ErrorConfiguration dwd:design-time-name="e6804058-f91b-4f11-8292-c004d78bfe3a">
+    <KeyNotFound>ReportAndStop</KeyNotFound>
+    <KeyDuplicate>ReportAndStop</KeyDuplicate>
+    <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
+  </ErrorConfiguration>
+  <CurrentStorageMode>Molap</CurrentStorageMode>
+  <Attributes>
+    <Attribute dwd:design-time-name="b2da6dd2-72be-47ac-8bfe-bff02744f9f0">
+      <ID>CAUSE ID</ID>
+      <Name>CAUSE ID</Name>
+      <Usage>Key</Usage>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="55ace65c-611c-4bf8-80c3-c4c1dc824cee">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="b0887e06-24a8-4d08-8253-8392bfdfc024">
+            <TableID>Group_ID_21_Dimension_Cause</TableID>
+            <ColumnID>CAUSE_ID</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="6e8060c0-5318-4d97-8b3a-50b539dba049">
+          <AttributeID>ROADWAY SURFACE COND</AttributeID>
+          <Name>ROADWAY SURFACE COND</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="8d06cae8-a47e-4446-b7da-18087b9b70eb">
+          <AttributeID>ROAD DEFECT</AttributeID>
+          <Name>ROAD DEFECT</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="231f5dae-4c8c-4ed2-93d8-2f8362779e1e">
+          <AttributeID>DEVICE CONDITION</AttributeID>
+          <Name>DEVICE CONDITION</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="935fbaa0-311b-4072-bf7e-6275a98a5ab5">
+          <AttributeID>SEC CONTRIBUTORY CAUSE</AttributeID>
+          <Name>SEC CONTRIBUTORY CAUSE</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="91328f13-dfc5-4f6e-8f61-4adc220acaae">
+          <AttributeID>PRIM CONTRIBUTORY CAUSE</AttributeID>
+          <Name>PRIM CONTRIBUTORY CAUSE</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="4a76dcc4-98d4-468d-a236-fbd9e9bbc1be">
+      <ID>ROADWAY SURFACE COND</ID>
+      <Name>ROADWAY SURFACE COND</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="32f08941-fc60-43d6-9e8f-10852b4b2aa8">
+          <DataType>WChar</DataType>
+          <DataSize>100</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="bd812dca-ae1c-43a4-97d5-3d4768a65fc3">
+            <TableID>Group_ID_21_Dimension_Cause</TableID>
+            <ColumnID>ROADWAY_SURFACE_COND</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="f3d19246-6d23-448c-9b97-9eee3804bd55">
+      <ID>ROAD DEFECT</ID>
+      <Name>ROAD DEFECT</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="3c2bac1e-fb10-4725-b1a7-703c5f9f0088">
+          <DataType>WChar</DataType>
+          <DataSize>100</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="4b4879dd-14e6-4a74-8b34-db112e34aecd">
+            <TableID>Group_ID_21_Dimension_Cause</TableID>
+            <ColumnID>ROAD_DEFECT</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="f13c5bbc-842a-4b89-a37d-7a965d6600dc">
+      <ID>DEVICE CONDITION</ID>
+      <Name>DEVICE CONDITION</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="93946ae4-c847-4f30-8f5d-a92495e877fc">
+          <DataType>WChar</DataType>
+          <DataSize>100</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="50119d4e-6233-4a10-8997-72402abf1910">
+            <TableID>Group_ID_21_Dimension_Cause</TableID>
+            <ColumnID>DEVICE_CONDITION</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="654ea247-348d-4597-85ad-eb01e57f1e67">
+      <ID>SEC CONTRIBUTORY CAUSE</ID>
+      <Name>SEC CONTRIBUTORY CAUSE</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="d0f4bf54-28ae-4f2e-8474-94460b8ca4be">
+          <DataType>WChar</DataType>
+          <DataSize>255</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="3dbb07a6-086b-454d-9a2b-bb1a32f4015b">
+            <TableID>Group_ID_21_Dimension_Cause</TableID>
+            <ColumnID>SEC_CONTRIBUTORY_CAUSE</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="cdd9fe08-cb5d-48df-aaf1-c3caf187ec63">
+      <ID>PRIM CONTRIBUTORY CAUSE</ID>
+      <Name>PRIM CONTRIBUTORY CAUSE</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="895a74cf-5540-4e50-9aca-4a77627b0860">
+          <DataType>WChar</DataType>
+          <DataSize>255</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="2b0cccad-eafe-494b-8d7a-6e4b4b6ca128">
+            <TableID>Group_ID_21_Dimension_Cause</TableID>
+            <ColumnID>PRIM_CONTRIBUTORY_CAUSE</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+  </Attributes>
+  <Hierarchies>
+    <Hierarchy dwd:design-time-name="d60e27a1-04ba-4d3e-98d5-1ac7670b48ad">
+      <ID>Hierarchy</ID>
+      <Name>Hierarchy</Name>
+      <Levels>
+        <Level dwd:design-time-name="0d5a19aa-658d-4375-aac2-ebc64dac2ff2">
+          <ID>SEC CONTRIBUTORY CAUSE</ID>
+          <Name>SEC CONTRIBUTORY CAUSE</Name>
+          <SourceAttributeID>SEC CONTRIBUTORY CAUSE</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="acfb2602-f28b-4c16-b73d-6dbc2b6d4245">
+          <ID>PRIM CONTRIBUTORY CAUSE</ID>
+          <Name>PRIM CONTRIBUTORY CAUSE</Name>
+          <SourceAttributeID>PRIM CONTRIBUTORY CAUSE</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="8b01902d-bf10-4972-8830-95dfed1ff417">
+          <ID>CAUSE ID</ID>
+          <Name>CAUSE ID</Name>
+          <SourceAttributeID>CAUSE ID</SourceAttributeID>
+        </Level>
+      </Levels>
+    </Hierarchy>
+  </Hierarchies>
+  <ddl300:ProcessingState>Unprocessed</ddl300:ProcessingState>
+</Dimension>
